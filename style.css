@@ -1,0 +1,47 @@
+body {
+  background: #0a0a0a;
+  color: #d0d0d0;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #121212;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #0ff;
+}
+
+nav a {
+  color: #f55;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+section {
+  padding: 3rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.hero {
+  background: linear-gradient(90deg, #0ff2, #f552);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+ul {
+  list-style: square;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  font-size: 0.8rem;
+}
